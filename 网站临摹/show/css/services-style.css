@@ -1,0 +1,66 @@
+/************************** company css style **************************/
+.content{
+	height: 750px;  
+}
+.services-content{
+	padding: 0 10px;
+}
+.main-left{
+	width: 300px;
+	margin-right: 10px;
+	float: left;
+}
+.main-center{
+	width: 300px;
+	margin: 0 10px;
+	float: left;
+}
+.main-right{
+	width: 300px;
+	margin-left: 10px;
+	float: right;
+}
+.main-bottom,.main-top{
+	padding-left: 100px;
+	height: 230px;   
+}
+.main-bottom p.font5,.main-top p.font5{
+	padding-top: 15px;
+}
+.main-left1{
+	width: 620px;
+	margin-right: 10px;
+	float: left;
+}
+.main-left1-left{
+	width: 220px;
+	margin-right: 10px;
+	float: left;
+}
+.main-left1-right{
+	width: 380px;
+	margin-left: 10px;
+	float: right;
+}
+.main-right-left{
+	width: 70px;
+	height: 100px;
+	margin-right: 10px;
+	float: left;
+}
+.main-left1-right p.font5 a{
+	background: url(../img/marker-2.png) 0 16px  no-repeat;
+	display: block;
+	padding: 15px 0 0 25px;
+	color: #666;
+	text-decoration:none;
+}
+.main-left1-right p.font5 a:hover{
+	text-decoration:underline;
+}
+.main-right-right{
+	width: 210px;
+	height: 100px;
+	margin-left: 10px;
+	float: right;
+}

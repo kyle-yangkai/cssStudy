@@ -1,0 +1,236 @@
+/************************** common css style **************************/
+#header-top{
+	height: 124px;
+	background: url(../img/row-top-tail.jpg);
+}
+/*头部居中*/
+.main{
+	width:960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+/*头部左边logo*/
+#header-logo{
+	display: block;
+	padding: 40px 0px 40px 7px;
+	margin: 0;
+    width: 299px;
+    height: 44px;
+    background: url(../img/logo.png) 0 40px no-repeat;/*向下移动40px 保证竖向居中*/
+    float:left;
+}
+/*搜索栏*/
+#search-content{
+	width:300px;
+	height:34px;
+	padding: 45px 10px 0 0;
+	float:right;
+}
+#search-content div{
+	background-color: white;
+}
+/*搜索框样式*/
+input.search-row{
+	width:245px;
+	height:21px;
+	padding:6px 15px 7px 15px;
+	overflow: hidden;
+	outline: none;
+	font-size:115% ;
+}
+/*搜索栏搜索按钮*/
+#search-img {
+	width: 20px;
+	height: 21px;
+	padding: 6px 5px 7px 0;
+	background: url(../img/search-icon.png) 0 6px no-repeat;
+	position: absolute;
+}
+/*菜单栏式样*/
+#header-bottom{
+	height: 70px;
+	background: url(../img/menu-row-tail.gif);
+}
+#menu-bar{
+	overflow: hidden;
+	background: url(../img/menu-spacer.gif)  left no-repeat;/*添加菜单列表最左侧竖线*/	
+}
+#menu-bar li{
+	float:left;/* 向左浮动  保证列表横向排列*/
+	position: relative;
+	background: url(../img/menu-spacer.gif) right no-repeat;/*添加菜单列表右侧竖线*/
+	padding-right: 2px;
+}
+/* 设置菜单栏链接式样 */
+#menu-bar li a{
+	display: block;
+	width:189px;
+	height:54px;
+	padding: 8px 0;
+	text-align: center;
+	font: normal normal 100  18px/54px Arial, Helvetica, sans-serif; /* font:font-style font-xariant font-weigth font-size/line-heigh font-family*/
+	color: #FFFFFF;
+	text-decoration:none;
+}
+#menu-bar li a:hover{
+	color: #000;
+}
+/*响应页链接式样*/
+#menu-bar li a.active{
+	color: #000;
+}
+.content{
+	background-color: #99999929;  /*ie浏览器不能识别#99999929*/
+	/*background-color:rgba(143, 138, 138, 0.21);*/
+	/*<!–[if IE]><!–background-color: rgba(143, 138, 138, 0.21);–><![endif]–>*/
+}
+/*底部页面背景及高度宽度设置*/
+#footer-row{
+	width: 100%;
+	height: 420px;
+	background: url(../img/footer-tail.gif);
+}
+#footer-row .main{
+	padding-top:35px;
+
+}
+/*底部页面左侧样式设置*/
+div.left{
+	width:620px;
+	margin: 0 10px;
+	float: left;
+	display: inline;
+}
+/*底部页面右侧样式设置*/
+div.right{
+	width:300px;
+	margin: 0 10px;
+	float: right;
+	display: inline;
+}
+h3.footer{
+	color: #FFFFFF;
+	font: normal normal 100  18px/36px Arial, Helvetica, sans-serif;
+}
+#user-information{
+	width:580px;
+	height: 320px;
+}
+.footer-form{
+	width:560px;
+	height:26px;
+	padding:7px 10px;
+	margin: 5px 0;
+	overflow: hidden;
+	outline: none;
+	font-size:115% 
+}
+textarea.footer-form{
+	width:560px;
+	height:146px;
+	padding:7px 10px;
+	margin: 5px 0;
+	outline: none;
+	font-size:115% 
+}
+div.buttons{
+	padding-top:30px;
+	float: right;
+}
+a.a1{
+	padding-left: 30px;
+	color: #39b9d6;
+	font-size: 115%;
+}
+a.a1:hover{
+	text-decoration:none;
+}
+.right div{
+	margin: 5px 0;
+}
+#footer-list{
+	height: 166px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #696969;
+	margin-bottom: 20px;
+	background: url(../img/social-icons.png)0 0 no-repeat;
+}
+#footer-list li{
+	display: block;
+	line-height: 35px;
+	padding-bottom: 9px;
+}
+#footer-list li a{
+	display: block;
+	padding-left: 54px;
+	color: #999;
+	font-size:130%;
+	text-decoration:none;
+}
+/*底部右侧段落式样*/
+.right div.right1 p{
+	color: #999;
+	font-size: 100%;
+	line-height: 2em;
+	
+}
+/*修改在页面底部右侧a1类链接的字体的大小及填充*/
+.right div.right1 .a1{
+	font-size: 100%;
+	padding: 0;
+}
+/*底部右侧a2类链接式样*/
+a.a2{
+	color: #39b9d6;
+	text-decoration:none;
+}
+a.a2:hover{
+	text-decoration:underline;
+}
+/*内容字体样式设置*/
+.font1{
+	font: normal normal 600 27px/54px "times new roman";
+	/*font-family: "times new roman";
+	font-size:2em;
+	line-height: 4em;*/
+	color:#000;
+}
+.font2{
+	font:italic normal 300 18px/27px "times new roman";
+	color:#999;
+}
+.font3{
+	font: normal normal 100 18px/18px "times new roman";
+	color: #39b9d6; 
+}
+.font4{
+	font: normal normal 100 18px/18px "times new roman";
+	color: #666;
+}
+.font5{
+	font: normal normal 100 13px/16px "microsoft yahei";
+	color: #666;
+}
+.font6{
+	font: normal normal 100 13px/26px "microsoft yahei";
+	color: #39b9d6;
+	display: block;
+	width:100px;
+	height:22px;
+	padding-top: 10px;
+	text-decoration:underline;
+	overflow: hidden;
+	background: url(../img/marker-1.gif)79px 24px no-repeat;
+}
+.font6:hover{
+	text-decoration:none;
+}
+.font7{
+	font: normal normal 100 13px/13px "times new roman";
+	color: #999;
+}
+img{
+	border: 1px solid #FFFFFF;
+}
+

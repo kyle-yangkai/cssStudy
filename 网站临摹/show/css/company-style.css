@@ -1,0 +1,56 @@
+/************************** company css style **************************/
+.content{
+	height: 580px;
+}
+.main-left{
+	width: 300px;
+	margin:0 10px;
+	float: left;
+}
+.company-contant{
+	height: 110px;
+}
+.main-left-left{
+	width: 80px;
+	margin-right: 5px;
+	float: left;
+}
+.main-left-right{
+	width: 210px;
+	margin-left: 5px;
+	float: right;
+} 
+.main-left-right h3.font3{
+	padding-bottom: 15px;
+}
+.main-righ{
+	width: 580px;
+	padding-left: 40px;
+	margin:0 10px;
+	float: right;
+}
+.main-right-left{
+	width: 260px;
+	
+	margin-right: 10px;
+	float: left;
+}
+.main-right-right{
+	width: 260px;
+	padding-left: 40px;
+	margin-left: 10px;
+	float: right;
+}
+.main-righ h3.font3{
+	padding: 15px 0;
+}
+.main-right-left p.font5 a,.main-right-right p.font5 a{
+	background: url(../img/marker-2.png) 0 16px  no-repeat;
+	display: block;
+	padding: 15px 0 0 25px;
+	color: #666;
+	text-decoration:none;
+}
+.main-right-left p.font5 a:hover,.main-right-right p.font5 a:hover{
+	text-decoration:underline;
+}

@@ -1,0 +1,228 @@
+/************************** index css style **************************/
+/********************* 以下为图片轮播样式代码 *********************/
+#content1 .box{
+	width: 100%;
+	padding-top: 30px;
+	background: url(../img/center-shadow.png);
+}
+#content1 .list{
+	height: 400px;
+	position: relative;
+	
+}
+#content1 li{
+	position: absolute;
+	top: 0;
+	left: 0;
+	list-style: none;
+	opacity: 0;
+	transition: all 0.5s ease-out;
+}
+#content1 img{
+	width: 411px;
+	height: 449px;
+	border:none;
+	float: left;
+}
+/*定义p1和p3在页面加载是由中间分别想两边移动，形成第一个动画，后面利用JavaScript制作轮播
+ * z-index属性指定元素覆盖顺序，属性值大的会覆盖属性值小的
+ * opacity属性决定元素透明度，属性值从0.0（完全透明）到1.0（完全不透明）
+ */
+#content1 .p1{
+	transform:translate3d(0px,-23px,0) scale(0.9);
+	transform-origin:0 50%;
+	opacity: 0.9;
+	z-index: 1; 
+}
+#content1 .p2{
+	transform:translate3d(274.5px,0,0) scale(1);
+	z-index: 3;
+	opacity: 1;
+}
+#content1 .p3{
+	transform:translate3d(549px,-23px,0) scale(0.9);
+	transform-origin:100% 50%;
+	opacity: 0.9;
+	z-index: 2;
+}
+/*以下定义初始动画*/
+#content1 .m1{
+	/*transform:translate3d(0px,-23px,0) scale(0.9);
+	transform-origin:0 50%;
+	opacity: 0.9;
+	z-index: 2; */
+	animation:imgFirst 1.5s 1;
+    -moz-animation:imgFirst 1.5s 1; /* Firefox */
+    -webkit-animation:imgFirst 1.5s 1; /* Safari and Chrome */
+    -o-animation:imgFirst 1.5s 1; /* Opera */
+}
+#content1 .m3{
+	/*transform:translate3d(549px,-23px,0) scale(0.9);
+	transform-origin:100% 50%;
+	opacity: 0.9;
+	z-index: 2;*/
+	animation:imgSecond 1.5s 1;
+    -moz-animation:imgSecond 1.5s 1; /* Firefox */
+    -webkit-animation:imgSecond 1.5s 1; /* Safari and Chrome */
+    -o-animation:imgSecond 1.5s 1; /* Opera */
+}
+@keyframes imgFirst
+{
+from {transform:translate3d(274.5px,0,0) scale(1);
+	z-index: 2;
+	opacity: 1;}
+to {transform:translate3d(0px,-23px,0) scale(0.9);
+	transform-origin:0 50%;
+	opacity: 0.9;
+	z-index: 1;}
+}
+
+@-moz-keyframes imgFirst /* Firefox */
+{
+from {transform:translate3d(274.5px,0,0) scale(1);
+	z-index: 2;
+	opacity: 1;}
+to {transform:translate3d(0px,-23px,0) scale(0.9);
+	transform-origin:0 50%;
+	opacity: 0.9;
+	z-index: 1;}
+}
+
+@-webkit-keyframes imgFirst /* Safari and Chrome */
+{
+from {transform:translate3d(274.5px,0,0) scale(1);
+	z-index: 2;
+	opacity: 1;}
+to {transform:translate3d(0px,-23px,0) scale(0.9);
+	transform-origin:0 50%;
+	opacity: 0.9;
+	z-index: 1;}
+}
+
+@-o-keyframes imgFirst /* Opera */
+{
+from {transform:translate3d(274.5px,0,0) scale(1);
+	z-index: 2;
+	opacity: 1;}
+to {transform:translate3d(0px,-23px,0) scale(0.9);
+	transform-origin:0 50%;
+	opacity: 0.9;
+	z-index: 1;}
+}
+@keyframes imgSecond
+{
+from {transform:translate3d(274.5px,0,0) scale(1);
+	z-index: 2;
+	opacity: 1;}
+to {transform:translate3d(549px,-23px,0) scale(0.9);
+	transform-origin:100% 50%;
+	opacity: 0.9;
+	z-index: 2;}
+}
+
+@-moz-keyframes imgSecond /* Firefox */
+{
+from {transform:translate3d(274.5px,0,0) scale(1);
+	z-index: 2;
+	opacity: 1;}
+to {transform:translate3d(549px,-23px,0) scale(0.9);
+	transform-origin:100% 50%;
+	opacity: 0.9;
+	z-index: 2;}
+}
+
+@-webkit-keyframes imgSecond /* Safari and Chrome */
+{
+from {transform:translate3d(274.5px,0,0) scale(1);
+	z-index: 2;
+	opacity: 1;}
+to {transform:translate3d(549px,-23px,0) scale(0.9);
+	transform-origin:100% 50%;
+	opacity: 0.9;
+	z-index: 2;}
+}
+
+@-o-keyframes imgSecond /* Opera */
+{
+from {transform:translate3d(274.5px,0,0) scale(1);
+	z-index: 2;
+	opacity: 1;}
+to {transform:translate3d(549px,-23px,0) scale(0.9);
+	transform-origin:100% 50%;
+	opacity: 0.9;
+	z-index: 2;}
+}
+#content2{
+	padding-top: 40px;
+	height: 570px;
+}
+/********************* 以下为正文内容样式代码 *********************/
+.content-left-left{
+	width: 300px;
+	height: 205px;
+	margin-right: 10px;
+	float: left;
+}
+.content-left-right{
+	width: 300px;
+	height: 205px;
+	margin-left: 10px;
+	float: right;
+}
+.font2{
+	display: block;
+	padding-bottom: 25px;
+}
+.font2 a{
+	color:#39b9d6;
+	text-decoration:none;
+}
+.font2 a:hover{
+	color:#39b9d6;
+	text-decoration:underline;
+}
+#ico1{
+	background: url(../img/page1-img1.png)0 0  no-repeat;
+}
+#ico2{
+	background: url(../img/page1-img2.png)0 0  no-repeat;
+}
+#ico3{
+	background: url(../img/page1-img3.png)0 0  no-repeat;
+}
+#ico4{
+	background: url(../img/page1-img4.png)0 0  no-repeat;
+}
+.left h3.font3,.left h4.font4{
+	display: block;
+	padding-left: 95px;
+}
+.left h3.font3{
+	padding-top: 25px;
+}
+.left h4.font4{
+	padding-bottom: 35px;
+}
+.font5 a{
+	color:#666;
+	text-decoration:underline;
+}
+.font5 a:hover{
+	color:#666;
+	text-decoration:none;
+}
+.right div.content-right-left{
+	width: 80px;
+	height: 172px;
+	margin:0 5px 0 0;
+	float: left;
+}
+.right div.content-right-right{
+	width: 210px;
+	height: 172px;
+	margin:0 0 0 5px;
+	float: right;
+}
+.right div.content-right-right h3.font3{
+	padding-bottom: 15px;
+}

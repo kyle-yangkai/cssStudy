@@ -1,0 +1,39 @@
+/************************** company css style **************************/
+.content{
+	height: 620px;/*暂定高度*/
+}
+.main h1.font1{
+	margin-left:10px;
+	padding-top:10px;
+}
+.main-left,.main-right{
+	width: 280px;
+	margin: 0 10px;
+	float: left;
+}
+.main-center{
+	width: 280px;	
+	margin: 0 40px;
+	float: left;
+}
+.main h3.font3{
+	padding:10px 0 20px 0; 
+}
+.main p.font3{
+	height: 51px;
+	margin-bottom:20px ;
+	background: url(../img/box-tail.gif);
+	line-height: 51px;
+}
+.main p.font3 a{
+	display: block;
+	width:200px;
+	padding-left: 25px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: url(../img/marker-3.gif) 140px 22px no-repeat;
+	transition: background 1s ease;
+}
+.main p.font3 a:hover{
+	background: url(../img/marker-3.gif) 150px 22px no-repeat;
+}

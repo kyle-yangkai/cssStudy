@@ -1,0 +1,60 @@
+/************************** company css style **************************/
+.content{
+	height: 450px;
+}
+.main-left{
+	width:620px;
+	margin: 0 10px;
+	float: left;
+}
+.main-right{
+	width:300px;
+	margin: 0 10px;
+	float: right;
+}
+.main h1.font1{
+	padding-top: 20px;
+}
+#user-information2{
+	width:580px;
+}
+#user-information2 label{
+	display: block;
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+}
+#user-information2 p.font5{
+	width:70px;
+	float: left;
+	line-height: 30px;
+}
+#user-information2 input{
+	width:510px;
+	height: 30px;
+	overflow: hidden;
+	float: right;
+}
+#user-information2 textarea{
+	width: 510px;
+	height: 210px;
+}
+#map{
+	width: 298px;
+	height:198px;
+    border:1px solid #FFFFFF;
+}
+.main-right-top{
+	margin: 20px 0;
+}
+.main-right-bottom span{
+	width:90px;
+	float: left;
+}
+.main-right-bottom a{
+	text-decoration:none;
+	color: #39b9d6 ;
+}
+.main-right-bottom a:hover{
+	text-decoration:underline ;
+}
